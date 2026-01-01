@@ -1,0 +1,16 @@
+{
+	"rcon": {
+		"host" : "localhost",
+		"port" : 28888
+	},
+	"irc": {
+		"network" : "irc.example.net",
+		"port" : 6667,
+		"nick" : "frogbot",
+		"channels" : [ "#example" ]
+	},
+	"web": {
+		"port": 8888,
+		"ip": false
+	}
+}

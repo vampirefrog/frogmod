@@ -1,0 +1,23 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+
+enet/.deps
+enet/.libs
+sauer_server
+server-init.cfg
+\enet/config.log
+enet/config.status
+enet/libenet.pc
+enet/libtool
