@@ -1,0 +1,9 @@
+services:
+  game-server:
+    image: vampirefrog/frogmod:latest  # Use pulled image for deployment
+    ports:
+      - "28785:28785"  # Sauerbraten server port
+    volumes:
+      - ./server-init.cfg:/app/server-init.cfg  # Mount config file (server-specific)
+      - ./data:/app/data  # Mount data directory for maps/logs if needed
+    restart: unless-stopped
