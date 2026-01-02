@@ -1,5 +1,5 @@
-frogmod-collect
-===============
+frogmod
+=======
 
 A server modification for Sauerbraten Collect edition
 
