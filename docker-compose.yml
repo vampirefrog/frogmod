@@ -2,7 +2,7 @@ services:
   game-server:
     image: vampirefrog/frogmod:latest  # Use pulled image for deployment
     ports:
-      - "28785:28785"  # Sauerbraten server port
+      - "28785-28787:28785-28787"  # Sauerbraten server ports (UDP and TCP)
     volumes:
       - ./server-init.cfg:/app/server-init.cfg  # Mount config file (server-specific)
       - ./data:/app/data  # Mount data directory for maps/logs if needed
