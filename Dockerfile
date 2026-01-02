@@ -33,7 +33,8 @@ WORKDIR /app
 COPY --from=builder /app/sauer_server .
 
 # Expose default Sauerbraten server port
-EXPOSE 28785
+EXPOSE 28785-28787
+EXPOSE 28888
 
 # Default command to run the server
 CMD ["./sauer_server"]
