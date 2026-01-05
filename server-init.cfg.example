@@ -109,3 +109,6 @@ teamkillkick "?capture" 10 30
 // if not set, defaults to serverip
 // it might be a good idea to set it to "localhost" or "127.0.0.1"
 //rconip "127.0.0.1"
+
+ircconnect myirc irc.example.com 6667 "" "sauerbot" "real" "name" "privmsg nickserv identify password"
+ircjoin myirc "#sauer"
